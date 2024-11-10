@@ -6,15 +6,16 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:book",
+          "name": "heart_crystals:heart_crystal_shard",
           "functions": [
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 10,
-                "max": 30
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 8
               },
-              "treasure": true
+              "add": false
             }
           ]
         }
@@ -26,16 +27,16 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:amethyst_shard",
           "weight": 2,
           "quality": 3,
-          "name": "minecraft:amethyst_shard",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 4,
-                "max": 8
+                "min": 0,
+                "max": 6
               },
               "add": false
             }
@@ -46,15 +47,15 @@
           "children": [
             {
               "type": "minecraft:item",
+              "name": "minecraft:emerald",
               "weight": 1,
               "quality": 1,
-              "name": "minecraft:emerald",
               "functions": [
                 {
                   "function": "minecraft:set_count",
                   "count": {
                     "type": "minecraft:uniform",
-                    "min": 1,
+                    "min": 0,
                     "max": 6
                   },
                   "add": false
@@ -71,9 +72,9 @@
             },
             {
               "type": "minecraft:item",
+              "name": "minecraft:blaze_rod",
               "weight": 1,
               "quality": 1,
-              "name": "minecraft:blaze_rod",
               "functions": [
                 {
                   "function": "minecraft:set_count",
@@ -98,9 +99,9 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:lapis_lazuli",
           "weight": 3,
           "quality": 1,
-          "name": "minecraft:lapis_lazuli",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -115,9 +116,9 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
           "weight": 3,
           "quality": 2,
-          "name": "minecraft:iron_ingot",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -132,9 +133,9 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
           "weight": 2,
           "quality": 4,
-          "name": "minecraft:gold_ingot",
           "functions": [
             {
               "function": "minecraft:set_count",
